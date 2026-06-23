@@ -1,10 +1,10 @@
 import React from 'react';
 import {ScrollView, StyleSheet, StatusBar, View } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context'; // ✅ New import
+import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from './src/components/Header';
 import SearchBar from './src/components/SearchBar';
-import CategoryCard from './src/components/CategoryCard';  // Changed from 'Categories' to 'CategoryCard'
-import FoodCard from './src/components/FoodCard';          // Changed from 'PopularFoods' to 'FoodCard'
+import CategoryCard from './src/components/CategoryCard';  
+import FoodCard from './src/components/FoodCard';          
 import BottomNav from './src/components/BottomNav';
 
 export default function App() {
